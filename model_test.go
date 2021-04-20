@@ -64,7 +64,7 @@ func TestCompact(t *testing.T) {
 	}
 
 	f := gmailFilters{}
-	if err := f.convertFrom(&data); err != nil {
+	if err := data.convertTo(&f); err != nil {
 		t.Fatal(err)
 	}
 

@@ -40,7 +40,7 @@ func mainImpl() error {
 	//prettyPrint(data)
 
 	f := gmailFilters{}
-	if err = f.convertFrom(&data); err != nil {
+	if err = data.convertTo(&f); err != nil {
 		return err
 	}
 	//prettyPrint(f)
