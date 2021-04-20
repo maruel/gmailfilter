@@ -1,5 +1,20 @@
 # Edit GMail filters
 
+How to use:
+
+- In GMail
+  - Click the gear icon
+  - Click `Settings`
+  - Click `Filters`
+  - At the bottom click Select: `All`
+  - Click `Export`
+- `go run github.com/maruel/gmailfilter mailFilters.xml > a.txt`
+- Open https://sheets.new
+  - Click File, Import
+  - Click on tab `Upload`
+  - Drag a.txt into the spreadsheet, give is a good 2 seconds, it's a bit slow.
+  - Accept defaults
+
 
 ## Authors
 

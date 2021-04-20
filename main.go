@@ -6,13 +6,13 @@
 package main
 
 import (
-	"encoding/json"
 	"encoding/xml"
 	"errors"
 	"fmt"
 	"os"
 )
 
+/*
 func prettyPrint(data interface{}) error {
 	//fmt.Printf("%+v\n", data)
 	var p []byte
@@ -23,6 +23,7 @@ func prettyPrint(data interface{}) error {
 	_, err = fmt.Printf("%s\n", p)
 	return err
 }
+*/
 
 func mainImpl() error {
 	if len(os.Args) != 2 {
