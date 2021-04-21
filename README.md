@@ -2,10 +2,13 @@
 
 How to use:
 
-- In GMail
-  - Click the gear icon
-  - Click `Settings`
-  - Click `Filters`
+- Go to the GMail filter page
+  - Either
+    - Visit https://mail.google.com/mail/u/0/#settings/filters
+    - Or in GMail
+      - Click the gear icon
+      - Click `Settings`
+      - Click `Filters`
   - At the bottom click Select: `All`
   - Click `Export`
 - `go run github.com/maruel/gmailfilter mailFilters.xml > a.txt`
